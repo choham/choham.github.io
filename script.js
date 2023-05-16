@@ -6,7 +6,7 @@ async function showAllHIDDevice() {
     console.log(device_list)
 }
 
-async function showAllUSBice() {
+async function showAllUSBDevice() {
     const device_list = await navigator.usbtDevices();
     console.log(device_list)
 }
