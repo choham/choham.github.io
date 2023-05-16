@@ -1,4 +1,4 @@
-document.getElementById('search device').addEventListener('click', showAllDevice);
+document.getElementById('search HID device').addEventListener('click', showAllDevice);
 
 async function showAllDevice() {
     const device_list = await navigator.hid.getDevices();
